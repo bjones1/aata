@@ -1,0 +1,55 @@
+<h1>Runestone Interactive - Author Toolkit Tutorial:</h1>
+<p>This author toolkit is built using <strong>Github Codespaces</strong>, which
+    are development spaces that are hosted on the cloud. From a Codespace, you
+    can edit your files in a Visual Studio Code environment from within your
+    browser, and any processing power required is taken from the host machine
+    in the cloud. We are using this platform to set up a way for Runestone
+    authors to quickly and easily update their textbooks from anywhere.</p>
+<p>First, create a Github account if you do not already have one.</p>
+<p>Next, navigate to the textbook's repository (EX:
+    https://github.com/jbrock1999h/aata) and click the "Fork" button at the top
+    right. Then click "Create fork" without changing any of the fields.</p>
+<p><img src="images/Tutorial/Gh_Fork.png" alt="" width="861" height="420"></p>
+<p>Finally, to get started editing the textbook, navigate back to the
+    textbook's repository (EX: https://github.com/jbrock1999h/aata), click the
+    green "Use this template" at the top right, and "Open in Codespace" in the
+    dropdown menu. <em>Note: This step will eventually be replaced by an "edit
+        me" button being placed in the textbook that would directly link to the
+        textbook's Codespace.</em></p>
+<p><em><img src="images/Tutorial/Green_Button.png" alt="" width="849"
+            height="992"></em></p>
+<p>Github will take a short period of time (usually not more than thirty
+    seconds) to create your Codespace. Once it boots up, you should see
+    something like this:<br><img src="images/Tutorial/Blank_Codespace.png"
+        alt="" width="1218" height="590"></p>
+<p>When this screen appears, the Codespace will still be working in the
+    background to run the textbook build (unless they have already been built
+    in your Codespace). This will take from a few seconds to a few minutes
+    depending on the size of your source material.</p>
+<p>Once your textbook is built, you can edit it as you usually would. Once you
+    have made the changes that you want to make, you can see the results of
+    your editing by going to the "ports" tab that can be seen at the bottom of
+    the above screenshot and clicking the web icon next to "Pretext View Web
+    Port".<br><img src="images/Tutorial/view_web.png" alt=""></p>
+<p>Once you are done making changes, you can save your changes by moving to the
+    "source control" window by clicking the branching icon on the left side of
+    your screen (see below), adding all changed files by pressing the plus icon
+    next to each file, pressing the green drop-down arrow next to commit, and
+    selecting "commit and push".</p>
+<p><img src="images/Tutorial/Source_Control.png" alt="" width="345"
+        height="379"></p>
+<p>You will then be prompted to enter a commit message in the main window. Once
+    you finish your commit message, hit the check mark in the top right corner
+    to commit your changes to your repository.</p>
+<p><img src="images/Tutorial/Commit.png" alt="" width="1913" height="635"></p>
+<p>Now, any changes that you have made are added to your personal fork of the
+    repository, but if you want to add them to the main repository you will
+    need to perform a "pull request". This can be done by first navigating to
+    your repository, clicking the "pull requests" tab, and clicking "new pull
+    request".</p>
+<p><img src="images/Tutorial/Pull_Request.png" alt="" width="1564"
+        height="519"></p>
+<p>Then, just create a new pull request with a title and description that
+    describe the changes you made and why you made them. Once the pull request
+    has been accepted, your changes will be added to the published textbook,
+    and your work is complete!</p>
